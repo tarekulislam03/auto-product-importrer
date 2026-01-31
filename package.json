@@ -1,0 +1,29 @@
+{
+    "name": "text-extractor",
+    "version": "1.0.0",
+    "description": "Extract text from images using Gemma 3 4B via OpenRouter",
+    "main": "extract.ts",
+    "scripts": {
+        "start": "ts-node extract.ts",
+        "start:server": "ts-node server.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.6",
+        "dotenv": "^16.4.5",
+        "express": "^5.2.1",
+        "multer": "^2.0.2",
+        "openai": "^4.28.0"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.19",
+        "@types/express": "^5.0.6",
+        "@types/multer": "^2.0.0",
+        "@types/node": "^20.11.24",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}
