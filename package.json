@@ -4,7 +4,7 @@
     "description": "Extract text from images using Gemma 3 4B via OpenRouter",
     "main": "extract.ts",
     "scripts": {
-        "build": "echo 'skip build'",
+        "build": "tsc",
         "start": "node dist/server.js",
         "dev": "ts-node server.ts",
         "start:server": "ts-node server.ts",
